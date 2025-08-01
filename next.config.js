@@ -1,3 +1,5 @@
+const path = require('path')
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
@@ -10,6 +12,15 @@ const nextConfig = {
   },
   // Enable standalone output for Vercel
   output: 'standalone',
+  // Configure webpack to handle path aliases
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': path.resolve(__dirname, './src'),
+      '@shared': path.resolve(__dirname, './shared'),
+    }
+    return config
+  },
 }
 
 module.exports = nextConfig

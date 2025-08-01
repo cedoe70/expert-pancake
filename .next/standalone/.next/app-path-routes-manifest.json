@@ -1,7 +1,7 @@
 {
   "/api/contact/route": "/api/contact",
-  "/api/cryptocurrencies/route": "/api/cryptocurrencies",
   "/api/cryptocurrencies/[symbol]/route": "/api/cryptocurrencies/[symbol]",
+  "/api/cryptocurrencies/route": "/api/cryptocurrencies",
   "/api/health/route": "/api/health",
   "/_not-found/page": "/_not-found",
   "/page": "/"

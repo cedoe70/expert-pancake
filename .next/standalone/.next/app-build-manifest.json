@@ -7,19 +7,19 @@
       "static/chunks/main-app-51e1b6f5714d9477.js",
       "static/chunks/app/api/contact/route-d397a283d358d900.js"
     ],
-    "/api/cryptocurrencies/route": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/chunks/app/api/cryptocurrencies/route-d397a283d358d900.js"
-    ],
     "/api/cryptocurrencies/[symbol]/route": [
       "static/chunks/webpack-4177ce3ef1ea8857.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-02efbd2195ef91bd.js",
       "static/chunks/main-app-51e1b6f5714d9477.js",
       "static/chunks/app/api/cryptocurrencies/[symbol]/route-d397a283d358d900.js"
+    ],
+    "/api/cryptocurrencies/route": [
+      "static/chunks/webpack-4177ce3ef1ea8857.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-02efbd2195ef91bd.js",
+      "static/chunks/main-app-51e1b6f5714d9477.js",
+      "static/chunks/app/api/cryptocurrencies/route-d397a283d358d900.js"
     ],
     "/api/health/route": [
       "static/chunks/webpack-4177ce3ef1ea8857.js",

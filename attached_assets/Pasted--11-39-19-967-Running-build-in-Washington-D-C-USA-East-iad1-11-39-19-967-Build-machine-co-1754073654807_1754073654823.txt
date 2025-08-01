@@ -1,0 +1,58 @@
+[11:39:19.967] Running build in Washington, D.C., USA (East) – iad1
+[11:39:19.967] Build machine configuration: 2 cores, 8 GB
+[11:39:20.015] Cloning github.com/cedoe70/expert-pancake (Branch: main, Commit: 9b9d5ad)
+[11:39:20.283] Previous build caches not available
+[11:39:26.067] Cloning completed: 6.052s
+[11:39:26.141] Found .vercelignore
+[11:39:26.167] Removed 182 ignored files defined in .vercelignore
+[11:39:26.168]   /.next/app-build-manifest.json
+[11:39:26.168]   /.next/app-path-routes-manifest.json
+[11:39:26.168]   /.next/BUILD_ID
+[11:39:26.168]   /.next/build-manifest.json
+[11:39:26.168]   /.next/cache/config.json
+[11:39:26.168]   /.next/cache/webpack/client-development-fallback/0.pack.gz
+[11:39:26.168]   /.next/cache/webpack/client-development-fallback/index.pack.gz
+[11:39:26.168]   /.next/cache/webpack/client-development/0.pack.gz
+[11:39:26.168]   /.next/cache/webpack/client-development/1.pack.gz
+[11:39:26.168]   /.next/cache/webpack/client-development/2.pack.gz
+[11:39:26.597] Running "vercel build"
+[11:39:27.722] Vercel CLI 44.6.4
+[11:39:29.217] Running "install" command: `npm install`...
+[11:39:35.686] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[11:39:35.720] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[11:39:48.197] 
+[11:39:48.198] added 606 packages, and audited 607 packages in 19s
+[11:39:48.199] 
+[11:39:48.199] 170 packages are looking for funding
+[11:39:48.199]   run `npm fund` for details
+[11:39:48.237] 
+[11:39:48.238] 6 vulnerabilities (1 low, 5 moderate)
+[11:39:48.238] 
+[11:39:48.239] To address issues that do not require attention, run:
+[11:39:48.239]   npm audit fix
+[11:39:48.239] 
+[11:39:48.239] To address all issues (including breaking changes), run:
+[11:39:48.239]   npm audit fix --force
+[11:39:48.239] 
+[11:39:48.240] Run `npm audit` for details.
+[11:39:48.286] Detected Next.js version: 15.4.5
+[11:39:48.287] Running "next build"
+[11:39:48.885] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[11:39:48.886] This information is used to shape Next.js' roadmap and prioritize features.
+[11:39:48.886] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[11:39:48.887] https://nextjs.org/telemetry
+[11:39:48.887] 
+[11:39:48.945]    ▲ Next.js 15.4.5
+[11:39:48.946] 
+[11:39:49.021]    Creating an optimized production build ...
+[11:39:55.077] Failed to compile.
+[11:39:55.079] 
+[11:39:55.080] ./src/app/api/contact/route.ts
+[11:39:55.081] Module not found: Can't resolve '@shared/schema'
+[11:39:55.082] 
+[11:39:55.082] https://nextjs.org/docs/messages/module-not-found
+[11:39:55.083] 
+[11:39:55.121] 
+[11:39:55.122] > Build failed because of webpack errors
+[11:39:55.157] Error: Command "next build" exited with 1
+[11:39:58.262] Exiting build container

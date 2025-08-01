@@ -1,64 +1,9 @@
 {
   "pages": {
     "/api/contact/route": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/chunks/app/api/contact/route-d397a283d358d900.js"
-    ],
-    "/api/cryptocurrencies/route": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/chunks/app/api/cryptocurrencies/route-d397a283d358d900.js"
-    ],
-    "/api/cryptocurrencies/[symbol]/route": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/chunks/app/api/cryptocurrencies/[symbol]/route-d397a283d358d900.js"
-    ],
-    "/api/health/route": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/chunks/app/api/health/route-d397a283d358d900.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/chunks/app/not-found-f25b9c5c0f0a0ef7.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/chunks/app/_not-found/page-d397a283d358d900.js"
-    ],
-    "/layout": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/css/2864ec787e49703a.css",
-      "static/chunks/144-0f0c01049af588d4.js",
-      "static/chunks/app/layout-4490adbfce0d40ee.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-4177ce3ef1ea8857.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-02efbd2195ef91bd.js",
-      "static/chunks/main-app-51e1b6f5714d9477.js",
-      "static/chunks/144-0f0c01049af588d4.js",
-      "static/chunks/319-ae10aa2ab8853f1c.js",
-      "static/chunks/app/page-83f89e585fb913e5.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/contact/route.js"
     ]
   }
 }

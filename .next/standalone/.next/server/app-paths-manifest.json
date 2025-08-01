@@ -1,7 +1,7 @@
 {
   "/api/contact/route": "app/api/contact/route.js",
-  "/api/cryptocurrencies/route": "app/api/cryptocurrencies/route.js",
   "/api/cryptocurrencies/[symbol]/route": "app/api/cryptocurrencies/[symbol]/route.js",
+  "/api/cryptocurrencies/route": "app/api/cryptocurrencies/route.js",
   "/api/health/route": "app/api/health/route.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
