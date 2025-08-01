@@ -1,0 +1,4 @@
+{
+  "/api/cryptocurrencies/route": "app/api/cryptocurrencies/route.js",
+  "/page": "app/page.js"
+}

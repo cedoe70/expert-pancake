@@ -2,7 +2,7 @@
 
 CryptoVest is a professional cryptocurrency investment platform that provides institutional-grade security, real-time market data, and expert guidance for cryptocurrency investors. The application features a modern React frontend with a Node.js/Express backend, offering users a comprehensive suite of tools including live cryptocurrency pricing, portfolio management, automated trading features, and contact/consultation services.
 
-**Recent Update (Aug 1, 2025)**: Project optimized for Vercel deployment following their recommended protocols including serverless functions, proper build configuration, and production-ready structure.
+**Recent Update (Aug 1, 2025)**: Project migrated from Node.js/Express to Next.js following Vercel's recommended protocols. Includes Next.js App Router, built-in API routes, and optimized production deployment structure.
 
 # User Preferences
 
@@ -19,11 +19,12 @@ Preferred communication style: Simple, everyday language.
 - **Responsive Design**: Mobile-first approach with Tailwind CSS breakpoints
 
 ## Backend Architecture
-- **Runtime**: Node.js with Express.js framework
+- **Framework**: Next.js App Router with built-in API routes
+- **Runtime**: Node.js serverless functions (Vercel optimized)
 - **Language**: TypeScript with ES modules
-- **API Design**: RESTful API endpoints with JSON responses
-- **Development**: TSX for hot reloading and development server
-- **Production Build**: ESBuild for server bundling
+- **API Design**: RESTful API endpoints using Next.js route handlers
+- **Development**: Next.js development server with hot reloading
+- **Production Build**: Next.js optimized build with automatic code splitting
 
 ## Data Storage Solutions
 - **Database**: PostgreSQL configured through Drizzle ORM
@@ -38,12 +39,14 @@ Preferred communication style: Simple, everyday language.
 - **Users Table**: Basic user authentication structure (prepared for future implementation)
 
 ## API Architecture
+- **Next.js Route Handlers**: File-based API routing in `/app/api/` directory
 - **Cryptocurrency Endpoints**: 
   - GET `/api/cryptocurrencies` - Fetch all supported cryptocurrencies
-  - GET `/api/cryptocurrencies/:symbol` - Fetch specific cryptocurrency data
+  - GET `/api/cryptocurrencies/[symbol]` - Fetch specific cryptocurrency data
+  - GET `/api/health` - Health check endpoint
 - **Contact Management**:
   - POST `/api/contact` - Submit consultation requests with validation
-- **Middleware**: Request logging, JSON parsing, error handling
+- **Features**: Automatic caching, error handling, TypeScript integration
 - **Validation**: Zod schemas for type-safe request validation
 
 ## Development Tools
