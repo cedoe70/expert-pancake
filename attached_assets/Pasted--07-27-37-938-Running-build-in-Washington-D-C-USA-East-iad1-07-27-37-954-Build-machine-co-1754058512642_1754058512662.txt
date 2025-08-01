@@ -1,0 +1,58 @@
+[07:27:37.938] Running build in Washington, D.C., USA (East) – iad1
+[07:27:37.954] Build machine configuration: 2 cores, 8 GB
+[07:27:37.975] Cloning github.com/cedoe70/expert-pancake (Branch: main, Commit: be78edc)
+[07:27:38.096] Previous build caches not available
+[07:27:41.094] Cloning completed: 3.119s
+[07:27:41.136] Found .vercelignore
+[07:27:41.158] Removed 84 ignored files defined in .vercelignore
+[07:27:41.158]   /.next/app-build-manifest.json
+[07:27:41.158]   /.next/build-manifest.json
+[07:27:41.158]   /.next/cache/config.json
+[07:27:41.158]   /.next/cache/webpack/client-development-fallback/0.pack.gz
+[07:27:41.158]   /.next/cache/webpack/client-development-fallback/index.pack.gz
+[07:27:41.158]   /.next/cache/webpack/client-development/0.pack.gz
+[07:27:41.158]   /.next/cache/webpack/client-development/1.pack.gz
+[07:27:41.158]   /.next/cache/webpack/client-development/2.pack.gz
+[07:27:41.158]   /.next/cache/webpack/client-development/3.pack.gz
+[07:27:41.158]   /.next/cache/webpack/client-development/index.pack.gz
+[07:27:42.948] Running "vercel build"
+[07:27:43.414] Vercel CLI 44.6.4
+[07:27:44.292] Running "install" command: `npm install`...
+[07:27:50.872] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[07:27:50.900] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[07:28:03.054] 
+[07:28:03.054] added 606 packages, and audited 607 packages in 19s
+[07:28:03.055] 
+[07:28:03.055] 170 packages are looking for funding
+[07:28:03.055]   run `npm fund` for details
+[07:28:03.098] 
+[07:28:03.099] 6 vulnerabilities (1 low, 5 moderate)
+[07:28:03.099] 
+[07:28:03.099] To address issues that do not require attention, run:
+[07:28:03.100]   npm audit fix
+[07:28:03.100] 
+[07:28:03.100] To address all issues (including breaking changes), run:
+[07:28:03.100]   npm audit fix --force
+[07:28:03.100] 
+[07:28:03.100] Run `npm audit` for details.
+[07:28:03.163] Detected Next.js version: 15.4.5
+[07:28:03.164] Running "next build"
+[07:28:03.749] Attention: Next.js now collects completely anonymous telemetry regarding usage.
+[07:28:03.750] This information is used to shape Next.js' roadmap and prioritize features.
+[07:28:03.750] You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[07:28:03.751] https://nextjs.org/telemetry
+[07:28:03.751] 
+[07:28:03.810]    ▲ Next.js 15.4.5
+[07:28:03.810] 
+[07:28:03.867]    Creating an optimized production build ...
+[07:28:10.120] Failed to compile.
+[07:28:10.120] 
+[07:28:10.123] ./src/app/api/contact/route.ts
+[07:28:10.124] Module not found: Can't resolve '../../../../shared/schema'
+[07:28:10.124] 
+[07:28:10.124] https://nextjs.org/docs/messages/module-not-found
+[07:28:10.125] 
+[07:28:10.144] 
+[07:28:10.146] > Build failed because of webpack errors
+[07:28:10.202] Error: Command "next build" exited with 1
+[07:28:13.295] Exiting build container
