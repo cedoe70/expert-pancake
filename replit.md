@@ -2,6 +2,8 @@
 
 CryptoVest is a professional cryptocurrency investment platform that provides institutional-grade security, real-time market data, and expert guidance for cryptocurrency investors. The application features a modern React frontend with a Node.js/Express backend, offering users a comprehensive suite of tools including live cryptocurrency pricing, portfolio management, automated trading features, and contact/consultation services.
 
+**Recent Update (Aug 1, 2025)**: Project optimized for Vercel deployment following their recommended protocols including serverless functions, proper build configuration, and production-ready structure.
+
 # User Preferences
 
 Preferred communication style: Simple, everyday language.
@@ -49,6 +51,23 @@ Preferred communication style: Simple, everyday language.
 - **Type Safety**: TypeScript with strict configuration
 - **Code Quality**: Shared TypeScript configuration across client/server
 - **Hot Reloading**: Vite HMR for frontend, TSX for backend development
+
+## Deployment Configuration
+
+### Vercel Optimization (Added Aug 1, 2025)
+- **Serverless Functions**: Express API converted to Vercel-compatible serverless functions in `/api/` directory
+- **Build Configuration**: `vercel.json` with optimized routing and build settings
+- **Environment Setup**: Development vs production environment handling
+- **Performance**: Caching headers, CORS optimization, error handling for serverless
+- **File Structure**: Separate CommonJS modules for Vercel deployment alongside TypeScript development files
+
+### Deployment Files
+- `vercel.json` - Vercel deployment configuration
+- `api/index.js` - Serverless API entry point (CommonJS)
+- `api/storage.js` - Storage layer for serverless environment
+- `api/schema.js` - Validation schemas for serverless functions
+- `.vercelignore` - Files excluded from deployment
+- `VERCEL_DEPLOYMENT.md` - Comprehensive deployment guide
 
 # External Dependencies
 

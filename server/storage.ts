@@ -107,6 +107,8 @@ export class MemStorage implements IStorage {
     const contactRequest: ContactRequest = {
       ...request,
       id,
+      phone: request.phone ?? null,
+      message: request.message ?? null,
       createdAt: new Date(),
     };
     this.contactRequests.set(id, contactRequest);
